@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="yguard">
+  <target name="yguard">
+    <taskdef classname="com.yworks.yguard.YGuardTask" classpath="C:\Users\Zigi\.m2\repository\com\yworks\yguard\5.0.0\yguard-5.0.0.jar;C:\Users\Zigi\.m2\repository\com\yworks\annotation\5.0.0\annotation-5.0.0.jar;C:\Users\Zigi\.m2\repository\org\ow2\asm\asm\9.9.1\asm-9.9.1.jar" name="yguard" />
+    <yguard>
+      <inoutpair in="C:\Users\Zigi\IdeaProjects\papermc\target/betterhomes-1.0.jar" out="C:\Users\Zigi\IdeaProjects\papermc\target/betterhomes-1.0-obf.jar" />
+      <rename logfile="C:\Users\Zigi\IdeaProjects\papermc\target/yguard-log.xml">
+        <keep>
+          <class name="Paper.papermc.Papermc" />
+        </keep>
+      </rename>
+    </yguard>
+  </target>
+</project>

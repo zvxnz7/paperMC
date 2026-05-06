@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Paper</groupId>
-    <artifactId>papermc</artifactId>
+    <artifactId>betterhomes</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>papermc</name>
+    <name>BetterHomes</name>
 
     <properties>
         <java.version>21</java.version>
@@ -18,36 +19,79 @@
 
     <build>
         <defaultGoal>clean package</defaultGoal>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.5.3</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
+
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
             </resource>
         </resources>
+
+        <plugins>
+            <!-- Compile with Java 21 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>${java.version}</release>
+                </configuration>
+            </plugin>
+
+            <!-- Build the normal plugin jar first -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.3</version>
+                <executions>
+                    <execution>
+                        <id>shade</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Create an obfuscated copy after the normal jar exists -->
+            <plugin>
+                <groupId>com.yworks.maven.plugins</groupId>
+                <artifactId>yguard-maven-plugin</artifactId>
+                <version>1.0.0</version>
+
+                <executions>
+                    <execution>
+                        <id>obfuscate</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+                <configuration>
+                    <yguardVersion>5.0.0</yguardVersion>
+
+                    <yguard>
+                        <inoutpair
+                                in="${project.build.directory}/${project.build.finalName}.jar"
+                                out="${project.build.directory}/${project.build.finalName}-obf.jar"/>
+
+                        <rename logfile="${project.build.directory}/yguard-log.xml">
+                            <keep>
+                                <!-- Must match plugin.yml main: -->
+                                <class name="Paper.papermc.Papermc"/>
+
+                            </keep>
+                        </rename>
+                    </yguard>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
     <repositories>
@@ -64,6 +108,7 @@
             <version>1.21.11-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>

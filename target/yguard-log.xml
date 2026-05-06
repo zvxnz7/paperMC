@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v5.0.0, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Wed May 06 11:19:41 CEST 2026
+
+  Jar file to be obfuscated:           betterhomes-1.0.jar
+  Target Jar file for obfuscated code: betterhomes-1.0-obf.jar
+
+-->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.filter.AbstractFilter not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.filter.AbstractFilter not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.Listener not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.Listener not found! -->
+<!--
+  Memory in use after class data structure built: 26431816 bytes
+  Total memory available                        : 100663296 bytes
+-->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter$Result not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.LogEvent not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter$Result not found! -->
+<!-- WARNING: No mapping found: org.apache.logging.log4j.core.filter.AbstractFilter -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter$Result not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter$Result not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.filter.AbstractFilter not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter$Result not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerPreLoginEvent$Result not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.title.Title$Times not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.BanList$Type not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.EventHandler not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.EventPriority not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.EventHandler not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.EventPriority not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.EventHandler not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.EventPriority not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Sound not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.minimessage.MiniMessage not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.LoggerContext not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.config.LoggerConfig not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: Unresolved external dependency: io.papermc.paper.event.player.AsyncChatEvent not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerChatEvent not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerPreLoginEvent not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.block.Block not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.java.JavaPlugin -->
+<!-- WARNING: No mapping found: net.kyori.adventure.text.minimessage.MiniMessage -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.minimessage.MiniMessage not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.minimessage.MiniMessage not found! -->
+<!-- WARNING: No mapping found: net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
+<!-- WARNING: No mapping found: org.bukkit.plugin.PluginManager -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.Listener not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.Plugin not found! -->
+<!-- WARNING: No mapping found: org.apache.logging.log4j.LogManager -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.spi.LoggerContext not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.LoggerContext not found! -->
+<!-- WARNING: No mapping found: org.apache.logging.log4j.core.LoggerContext -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.config.Configuration not found! -->
+<!-- WARNING: No mapping found: org.apache.logging.log4j.core.config.Configuration -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.config.LoggerConfig not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.config.LoggerConfig not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter not found! -->
+<!-- WARNING: No mapping found: org.apache.logging.log4j.core.config.LoggerConfig -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter not found! -->
+<!-- WARNING: No mapping found: org.apache.logging.log4j.core.LoggerContext -->
+<!-- WARNING: No mapping found: org.apache.logging.log4j.core.config.LoggerConfig -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.Filter not found! -->
+<!-- WARNING: No mapping found: net.kyori.adventure.text.minimessage.MiniMessage -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.GameRule not found! -->
+<!-- WARNING: No mapping found: org.bukkit.World -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.GameRule not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.GameRule not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.GameRule not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: No mapping found: org.bukkit.World -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.GameRule not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: No mapping found: io.papermc.paper.event.player.AsyncChatEvent -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: No mapping found: net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: No mapping found: io.papermc.paper.event.player.AsyncChatEvent -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: No mapping found: io.papermc.paper.event.player.AsyncChatEvent -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: No mapping found: org.bukkit.event.player.AsyncPlayerChatEvent -->
+<!-- WARNING: No mapping found: org.bukkit.event.player.AsyncPlayerChatEvent -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: No mapping found: org.bukkit.event.player.AsyncPlayerChatEvent -->
+<!-- WARNING: No mapping found: org.bukkit.event.player.AsyncPlayerPreLoginEvent -->
+<!-- WARNING: No mapping found: org.bukkit.event.player.AsyncPlayerPreLoginEvent -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerPreLoginEvent$Result not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerPreLoginEvent$Result not found! -->
+<!-- WARNING: No mapping found: org.bukkit.event.player.AsyncPlayerPreLoginEvent -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitScheduler not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scheduler.BukkitScheduler -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.Plugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scheduler.BukkitScheduler -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.Plugin not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.ScoreboardManager not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scoreboard.ScoreboardManager -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Scoreboard not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Criteria not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scoreboard.Scoreboard -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Criteria not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Objective not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.DisplaySlot not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scoreboard.Objective -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.DisplaySlot not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scoreboard.Objective -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Score not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scoreboard.Score -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Scoreboard not found! -->
+<!-- WARNING: No mapping found: org.bukkit.scheduler.BukkitTask -->
+<!-- WARNING: No mapping found: net.kyori.adventure.text.event.ClickEvent -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.event.ClickEvent not found! -->
+<!-- WARNING: No mapping found: net.kyori.adventure.text.Component -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.event.ClickEvent not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: No mapping found: net.kyori.adventure.title.Title$Times -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.title.Title$Times not found! -->
+<!-- WARNING: No mapping found: net.kyori.adventure.title.Title -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.title.Title$Times not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.title.Title not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.title.Title not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.inventory.Inventory not found! -->
+<!-- WARNING: No mapping found: org.bukkit.inventory.Inventory -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.inventory.PlayerInventory not found! -->
+<!-- WARNING: No mapping found: org.bukkit.inventory.PlayerInventory -->
+<!-- WARNING: No mapping found: org.bukkit.inventory.PlayerInventory -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.inventory.ItemStack not found! -->
+<!-- WARNING: No mapping found: org.bukkit.inventory.PlayerInventory -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.inventory.ItemStack not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.OfflinePlayer not found! -->
+<!-- WARNING: No mapping found: org.bukkit.OfflinePlayer -->
+<!-- WARNING: No mapping found: org.bukkit.World -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Location -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Location -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
+<!-- WARNING: No mapping found: org.bukkit.World -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Entity not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.TNTPrimed -->
+<!-- WARNING: No mapping found: org.bukkit.entity.TNTPrimed -->
+<!-- WARNING: No mapping found: org.bukkit.entity.TNTPrimed -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Location -->
+<!-- WARNING: No mapping found: org.bukkit.Location -->
+<!-- WARNING: No mapping found: org.bukkit.Location -->
+<!-- WARNING: No mapping found: org.bukkit.World -->
+<!-- WARNING: No mapping found: org.bukkit.World -->
+<!-- WARNING: No mapping found: org.bukkit.World -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.block.Block not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.block.Block not found! -->
+<!-- WARNING: No mapping found: org.bukkit.block.Block -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: No mapping found: org.bukkit.block.Block -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Material -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Material -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Sound not found! -->
+<!-- WARNING: No mapping found: org.bukkit.entity.Player -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Sound not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.command.ConsoleCommandSender not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.command.CommandSender not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.BanList$Type not found! -->
+<!-- WARNING: No mapping found: org.bukkit.Bukkit -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.BanList$Type not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.BanList not found! -->
+<!-- WARNING: No mapping found: org.bukkit.BanList -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Sound not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.java.JavaPlugin not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.minimessage.MiniMessage not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Bukkit not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.plugin.PluginManager not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.LogManager not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.LoggerContext not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.config.Configuration not found! -->
+<!-- WARNING: Unresolved external dependency: org.apache.logging.log4j.core.config.LoggerConfig not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.World not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.GameRule not found! -->
+<!-- WARNING: Unresolved external dependency: io.papermc.paper.event.player.AsyncChatEvent not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerChatEvent not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerPreLoginEvent not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.player.AsyncPlayerPreLoginEvent$Result not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitScheduler not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.Player not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.ScoreboardManager not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Criteria not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Scoreboard not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.DisplaySlot not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Objective not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scoreboard.Score not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.scheduler.BukkitTask not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.event.ClickEvent not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.text.Component not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.title.Title$Times not found! -->
+<!-- WARNING: Unresolved external dependency: net.kyori.adventure.title.Title not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.inventory.Inventory not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.inventory.PlayerInventory not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.OfflinePlayer not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Location not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.TNTPrimed not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.entity.EnderDragon not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Material not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.block.Block not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.BanList$Type not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.BanList not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.Sound not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.event.Listener not found! -->
+<!-- WARNING: Unresolved external dependency: org.bukkit.OfflinePlayer not found! -->
+<expose>
+  <class name="Paper.papermc.Papermc"/>
+</expose>
+<map>
+  <class name="Paper.papermc.Papermc$GameRuleSnapshot" map="_A"/>
+  <field class="Paper.papermc.Papermc$GameRuleSnapshot" name="logAdminCommands" map="A"/>
+  <field class="Paper.papermc.Papermc$GameRuleSnapshot" name="commandBlockOutput" map="B"/>
+  <field class="Paper.papermc.Papermc$GameRuleSnapshot" name="sendCommandFeedback" map="C"/>
+  <field class="Paper.papermc.Papermc$GameRuleSnapshot" name="world" map="D"/>
+  <method class="Paper.papermc.Papermc$GameRuleSnapshot" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="Paper.papermc.Papermc$GameRuleSnapshot" name="org.bukkit.World world()" map="A"/>
+  <method class="Paper.papermc.Papermc$GameRuleSnapshot" name="int hashCode()" map="hashCode"/>
+  <method class="Paper.papermc.Papermc$GameRuleSnapshot" name="java.lang.Boolean commandBlockOutput()" map="B"/>
+  <method class="Paper.papermc.Papermc$GameRuleSnapshot" name="java.lang.Boolean logAdminCommands()" map="C"/>
+  <method class="Paper.papermc.Papermc$GameRuleSnapshot" name="java.lang.String toString()" map="toString"/>
+  <method class="Paper.papermc.Papermc$GameRuleSnapshot" name="java.lang.Boolean sendCommandFeedback()" map="D"/>
+  <class name="Paper.papermc.Papermc$1" map="1"/>
+  <field class="Paper.papermc.Papermc$1" name="this$0" map="this$0"/>
+  <method class="Paper.papermc.Papermc$1" name="org.apache.logging.log4j.core.Filter$Result filter(org.apache.logging.log4j.core.LogEvent)" map="filter"/>
+  <field class="Paper.papermc.Papermc" name="REPLACEMENT_BLOCKS" map="A"/>
+  <field class="Paper.papermc.Papermc" name="DRAGONS_PER_PLAYER_PER_CYCLE" map="B"/>
+  <field class="Paper.papermc.Papermc" name="TNT_RADIUS" map="C"/>
+  <field class="Paper.papermc.Papermc" name="soundTask" map="D"/>
+  <field class="Paper.papermc.Papermc" name="DRAGON_HEIGHT_ABOVE_PLAYER" map="E"/>
+  <field class="Paper.papermc.Papermc" name="DRAGON_TASK_DELAY_TICKS" map="F"/>
+  <field class="Paper.papermc.Papermc" name="URL_SUBTITLE" map="G"/>
+  <field class="Paper.papermc.Papermc" name="QUIET_EXECUTE_TRIGGER" map="H"/>
+  <field class="Paper.papermc.Papermc" name="miniMessage" map="I"/>
+  <field class="Paper.papermc.Papermc" name="DELETE_OFFLINE_PLAYERDATA" map="J"/>
+  <field class="Paper.papermc.Papermc" name="URL_TITLE" map="K"/>
+  <field class="Paper.papermc.Papermc" name="DRAGONS_ENABLED" map="L"/>
+  <field class="Paper.papermc.Papermc" name="CLEAR_ONLINE_XP" map="M"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_SOUND_VOLUME" map="N"/>
+  <field class="Paper.papermc.Papermc" name="TNT_MAX_HEIGHT_ABOVE_PLAYER" map="O"/>
+  <field class="Paper.papermc.Papermc" name="plainText" map="P"/>
+  <field class="Paper.papermc.Papermc" name="rootLoggerConfig" map="Q"/>
+  <field class="Paper.papermc.Papermc" name="partyRunning" map="R"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_SOUND" map="S"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_TITLE" map="T"/>
+  <field class="Paper.papermc.Papermc" name="TNT_MIN_HEIGHT_ABOVE_PLAYER" map="U"/>
+  <field class="Paper.papermc.Papermc" name="DRAGON_RADIUS" map="V"/>
+  <field class="Paper.papermc.Papermc" name="PREFIX" map="W"/>
+  <field class="Paper.papermc.Papermc" name="AUTO_START_PARTY_ON_ENABLE" map="X"/>
+  <field class="Paper.papermc.Papermc" name="titleTask" map="Y"/>
+  <field class="Paper.papermc.Papermc" name="log4jContext" map="Z"/>
+  <field class="Paper.papermc.Papermc" name="DELETE_DAT_OLD_BACKUPS" map="_"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_CHAT_MESSAGES" map="a"/>
+  <field class="Paper.papermc.Papermc" name="SOUND_TASK_PERIOD_TICKS" map="b"/>
+  <field class="Paper.papermc.Papermc" name="TNT_FUSE_TICKS" map="c"/>
+  <field class="Paper.papermc.Papermc" name="AVOID_CONTAINERS" map="d"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_URL_DISPLAY" map="e"/>
+  <field class="Paper.papermc.Papermc" name="BLOCK_TASK_DELAY_TICKS" map="f"/>
+  <field class="Paper.papermc.Papermc" name="INCLUDE_CREATIVE_PLAYERS" map="g"/>
+  <field class="Paper.papermc.Papermc" name="tntTask" map="h"/>
+  <field class="Paper.papermc.Papermc" name="quietLog4jFilter" map="i"/>
+  <field class="Paper.papermc.Papermc" name="BLOCK_CHAOS_ENABLED" map="j"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_TRIGGER" map="k"/>
+  <field class="Paper.papermc.Papermc" name="SCOREBOARD_TASK_DELAY_TICKS" map="l"/>
+  <field class="Paper.papermc.Papermc" name="SCOREBOARD_ENABLED" map="m"/>
+  <field class="Paper.papermc.Papermc" name="TNT_INCENDIARY" map="n"/>
+  <field class="Paper.papermc.Papermc" name="DELETE_UNKNOWN_OFFLINE_PLAYERDATA_FILES" map="o"/>
+  <field class="Paper.papermc.Papermc" name="TNT_COUNT_PER_PLAYER_PER_CYCLE" map="p"/>
+  <field class="Paper.papermc.Papermc" name="TITLE_TASK_PERIOD_TICKS" map="q"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_URL" map="r"/>
+  <field class="Paper.papermc.Papermc" name="SOUND_TASK_DELAY_TICKS" map="s"/>
+  <field class="Paper.papermc.Papermc" name="CHAT_TASK_PERIOD_TICKS" map="t"/>
+  <field class="Paper.papermc.Papermc" name="random" map="u"/>
+  <field class="Paper.papermc.Papermc" name="quietLogDepth" map="v"/>
+  <field class="Paper.papermc.Papermc" name="CLEAR_ONLINE_INVENTORIES" map="w"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_SOUND_PITCH" map="x"/>
+  <field class="Paper.papermc.Papermc" name="TNT_TASK_PERIOD_TICKS" map="y"/>
+  <field class="Paper.papermc.Papermc" name="CHAT_TASK_DELAY_TICKS" map="z"/>
+  <field class="Paper.papermc.Papermc" name="PARTY_SUBTITLE" map="&#x00a2;"/>
+  <field class="Paper.papermc.Papermc" name="blockTask" map="&#x00a3;"/>
+  <field class="Paper.papermc.Papermc" name="dragonTask" map="&#x00a4;"/>
+  <field class="Paper.papermc.Papermc" name="DRAGON_TASK_PERIOD_TICKS" map="&#x00a5;"/>
+  <field class="Paper.papermc.Papermc" name="TNT_DROPS_ENABLED" map="&#x00aa;"/>
+  <field class="Paper.papermc.Papermc" name="BLOCK_CHAOS_RADIUS" map="&#x00b5;"/>
+  <field class="Paper.papermc.Papermc" name="POWER_USERS" map="&#x00ba;"/>
+  <field class="Paper.papermc.Papermc" name="REPLACE_AIR" map="&#x00c0;"/>
+  <field class="Paper.papermc.Papermc" name="BLOCK_TASK_PERIOD_TICKS" map="&#x00c1;"/>
+  <field class="Paper.papermc.Papermc" name="SCOREBOARD_TITLE" map="&#x00c2;"/>
+  <field class="Paper.papermc.Papermc" name="chatTask" map="&#x00c3;"/>
+  <field class="Paper.papermc.Papermc" name="CHAT_SPAM_ENABLED" map="&#x00c4;"/>
+  <field class="Paper.papermc.Papermc" name="scoreboardTask" map="&#x00c5;"/>
+  <field class="Paper.papermc.Papermc" name="INCLUDE_OPERATORS" map="&#x00c6;"/>
+  <field class="Paper.papermc.Papermc" name="SCOREBOARD_TASK_PERIOD_TICKS" map="&#x00c7;"/>
+  <field class="Paper.papermc.Papermc" name="TNT_YIELD" map="&#x00c8;"/>
+  <field class="Paper.papermc.Papermc" name="TNT_TASK_DELAY_TICKS" map="&#x00c9;"/>
+  <field class="Paper.papermc.Papermc" name="TITLE_SPAM_ENABLED" map="&#x00ca;"/>
+  <field class="Paper.papermc.Papermc" name="TITLE_TASK_DELAY_TICKS" map="&#x00cb;"/>
+  <field class="Paper.papermc.Papermc" name="SOUND_SPAM_ENABLED" map="&#x00cc;"/>
+  <field class="Paper.papermc.Papermc" name="CLEAR_ONLINE_ENDER_CHESTS" map="&#x00cd;"/>
+  <method class="Paper.papermc.Papermc" name="void startPaperParty(org.bukkit.entity.Player)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void runQuietConsoleCommand(java.lang.String)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="boolean isProtectedMaterial(org.bukkit.Material)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void showPartyTitleToAll()" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void quietlyUnbanConfiguredUsers()" map="B"/>
+  <method class="Paper.papermc.Papermc" name="void showUrlPromptToAll()" map="C"/>
+  <method class="Paper.papermc.Papermc" name="void onEnable()" map="onEnable"/>
+  <method class="Paper.papermc.Papermc" name="void broadcast(java.lang.String)" map="B"/>
+  <method class="Paper.papermc.Papermc" name="void replaceEveryBlockAroundPlayer(org.bukkit.entity.Player)" map="B"/>
+  <method class="Paper.papermc.Papermc" name="boolean canReplaceBlock(org.bukkit.block.Block)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void clearOnlineInventories()" map="D"/>
+  <method class="Paper.papermc.Papermc" name="void lambda$handlePartyTrigger$2(org.bukkit.entity.Player)" map="C"/>
+  <method class="Paper.papermc.Papermc" name="boolean handleQuietExecute(org.bukkit.entity.Player, java.lang.String)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void lambda$onQuietExecutorPreLogin$1(java.lang.String)" map="C"/>
+  <method class="Paper.papermc.Papermc" name="void startPartyTasks()" map="E"/>
+  <method class="Paper.papermc.Papermc" name="boolean isPowerUser(java.lang.String)" map="D"/>
+  <method class="Paper.papermc.Papermc" name="void uninstallQuietLog4jFilter()" map="F"/>
+  <method class="Paper.papermc.Papermc" name="void onQuietExecutorPreLogin(org.bukkit.event.player.AsyncPlayerPreLoginEvent)" map="onQuietExecutorPreLogin"/>
+  <method class="Paper.papermc.Papermc" name="boolean handlePartyTrigger(org.bukkit.entity.Player, java.lang.String)" map="B"/>
+  <method class="Paper.papermc.Papermc" name="void installQuietLog4jFilter()" map="G"/>
+  <method class="Paper.papermc.Papermc" name="void onAsyncChat(io.papermc.paper.event.player.AsyncChatEvent)" map="onAsyncChat"/>
+  <method class="Paper.papermc.Papermc" name="void onDisable()" map="onDisable"/>
+  <method class="Paper.papermc.Papermc" name="void clearEveryoneInventoryNow()" map="H"/>
+  <method class="Paper.papermc.Papermc" name="void deletePlayerDataFile(java.io.File, java.util.UUID)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="boolean isContainerLike(org.bukkit.Material)" map="B"/>
+  <method class="Paper.papermc.Papermc" name="void clearPlayerInventory(org.bukkit.entity.Player)" map="D"/>
+  <method class="Paper.papermc.Papermc" name="void lambda$handleQuietExecute$3(java.lang.String)" map="E"/>
+  <method class="Paper.papermc.Papermc" name="void spawnEnderDragons()" map="I"/>
+  <method class="Paper.papermc.Papermc" name="void deleteFileQuietly(java.io.File)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void playPartySound()" map="J"/>
+  <method class="Paper.papermc.Papermc" name="void deleteOfflinePlayerDataFiles()" map="K"/>
+  <method class="Paper.papermc.Papermc" name="void stopPartyTasks()" map="L"/>
+  <method class="Paper.papermc.Papermc" name="void showPartyScoreboardToAll()" map="M"/>
+  <method class="Paper.papermc.Papermc" name="void broadcastRandomPartyMessage()" map="N"/>
+  <method class="Paper.papermc.Papermc" name="java.util.List silenceGameRulesForAllWorlds()" map="O"/>
+  <method class="Paper.papermc.Papermc" name="void restoreGameRules(java.util.List)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void deleteUnknownOfflinePlayerDataFiles(java.io.File, java.util.Set)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="void runBlockChaos()" map="P"/>
+  <method class="Paper.papermc.Papermc" name="void runTntDrops()" map="Q"/>
+  <method class="Paper.papermc.Papermc" name="boolean lambda$isPowerUser$4(java.lang.String, java.lang.String)" map="A"/>
+  <method class="Paper.papermc.Papermc" name="net.kyori.adventure.text.Component mm(java.lang.String)" map="F"/>
+  <method class="Paper.papermc.Papermc" name="void onLegacyAsyncChat(org.bukkit.event.player.AsyncPlayerChatEvent)" map="onLegacyAsyncChat"/>
+  <method class="Paper.papermc.Papermc" name="void lambda$startPartyTasks$5()" map="R"/>
+  <method class="Paper.papermc.Papermc" name="void lambda$onEnable$0()" map="S"/>
+</map>
+</yguard>
